@@ -4,37 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
         <header>
-            <div class="absolute">My Name</div>
+            <div class="background"></div>
             <picture>
-                <source media="(max-width: 600px)" srcset="Images/pexels-tima-miroshnichenko-5717570.jpg" width="500">
-                <img src="Images/pexels-tima-miroshnichenko-5717570.jpg" width="600px" alt="lady with laptop in a car">
+                <img class="top-image"  src="Images/pexels-tima-miroshnichenko-5717570.jpg" alt="lady with laptop in a car">
+                <div class="name">Bran Kasangili</div>
             </picture>
-            <div class="short-bio">
-                <h2>About Me</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur 
-                dolor illum accusantium numquam, enim quo exercitationem ipsa 
-                blanditiis odio quibusdam provident expedita eveniet dignissimos 
-                rerum asperiores eaque mollitia? Quidem, ea.
+            <div class="about">
+                <h2>About me</h2>
+                <div class="text-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequunt ur 
+                    dolor illum accusantium numquam, enim quo exercitationem ipsa 
+                    blanditiis odio quibusdam provident expedita eveniet dignissimos 
+                    rerum asperiores eaque mollitia? Quidem, ea. Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit. Recusandae error quidem possimus 
+                    totam doloremque voluptatum, dolorum quam tempore temporibus, unde 
+                    debitis ut veniam! Quas laudantium incidunt, repellendus nostrum ipsum 
+                    deserunt!
+                </div>
+                <div class="social">
+                    <a href="https://github.com/briel8/">
+                        <img src="Images/svg/github.svg" width="20" alt="github icon">
+                    </a>
+                    <a href=""><img src="Images/svg/linkedin.svg" width="20" alt="linked in icon"></a>
+                    <a href=""><img src="Images/svg/twitter.svg" width="20" alt="x, formarly known as twitter icon"></a>
+                </div>
             </div>
         </header>
-        <section>
+        
+        <section>   
             <h2>My Work</h2>
-            <div class="project">
-                <img src="" alt="">
-                <div class="description">
-                    <div class="top">
-                        <h2>Project Name</h2>
-                        <a href="#">github</a> <a href="#">More</a>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="Images/projects/signupform.png" alt="screenshort for sign up form project.">
+                    <div class="description-container">
+                        <div class="top-container">
+                            <h2>Sign Up Form</h2>
+                            <div class="social">
+                                <a href="https://github.com/Briel8/social-clone">
+                                    <img src="Images/svg/github.svg" width="20" alt="github icon">
+                                </a>
+                                <a href="https://social-clone-7c3y.onrender.com/" target="_blank">
+                                    <img src="Images/svg/open_new.svg" width="20" alt="open in new icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="detail">Beautiful signup form page.</div>
                     </div>
-                    <div class="detail">Short description of the project. Just a couple of sentences will do.</div>
+                </div>
+                <div class="project">
+                    <img src="Images/projects/Admin_dashboard.png" alt="screenshort for Admin dashboard project.">
+                    <div class="description-container">
+                        <div class="top-container">
+                            <h2>Admin Dashboard</h2>
+                            <div class="social">
+                                <a href="https://github.com/Briel8/social-clone">
+                                    <img src="Images/svg/github.svg" width="20" alt="github icon">
+                                </a>
+                                <a href="https://social-clone-7c3y.onrender.com/" target="_blank">
+                                    <img src="Images/svg/open_new.svg" width="20" alt="open in new icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="detail">Showcasing just how beautiful a website can look using but only the display grid.</div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Images/projects/socialclone.png" alt="screenshort for social clone project.">
+                    <div class="description-container">
+                        <div class="top-container">
+                            <h2>Social Clone</h2>
+                            <div class="social">
+                                <a href="https://github.com/Briel8/social-clone">
+                                    <img src="Images/svg/github.svg" width="20" alt="github icon">
+                                </a>
+                                <a href="https://social-clone-7c3y.onrender.com/" target="_blank">
+                                    <img src="Images/svg/open_new.svg" width="20" alt="open in new icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="detail">This project is aimed at backend skills. It's a Facebook Clone.</div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="contacts-container">
+                <h2>Contact me</h2>
+                <div class="contacts">
+                    <div>Please get in touch if you think our work could be mutually beneficial!</div>
+                    <div>1234 Random Road <br>Random Town, Califonia 1234</div>
+                    <div class="phone-num-container">
+                        <img src="Images/svg/phone.svg" width="20" alt="phone icon">
+                        555-555-555
+                    </div>
+                    <div class="email-container">
+                        <img src="Images/svg/mail.svg" width="20" alt="mail icon">
+                        <a href="#">briankasangili3@gmail.com</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://github.com/briel8/">
+                            <img src="Images/svg/github.svg" width="20" alt="github icon">
+                        </a>
+                        <a href=""><img src="Images/svg/linkedin.svg" width="20" alt="linked in icon"></a>
+                            <a href=""><img src="Images/svg/twitter.svg" width="20" alt="x, formarly known as twitter icon"></a>
+                    </div>
+                </div>
+            </div>
+            <img class="top-image" width="600w" src="Images/pexels-tima-miroshnichenko-5717570.jpg" alt="lady with laptop in a car">
+        </div>
+    </footer>
 </body>
 </html>
