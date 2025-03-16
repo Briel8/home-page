@@ -31,7 +31,6 @@ h3 {
 body,
 footer > .container {
     padding-inline: 5rem;
-    margin-inline: auto;
 }
 
 img {
@@ -140,6 +139,11 @@ footer > .container {
     justify-content: space-between;
 }
 
+footer > .container > .contacts-container,
+footer > .container > .image-container {
+    flex: 1;
+}
+
 footer > .container > .contacts-container > .contacts {
     display: flex;
     flex-direction: column;
@@ -149,11 +153,39 @@ footer > .container > .contacts-container > .contacts {
 footer > .container > .contacts-container > .contacts > * {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 3px;
 }
+
+
+
 
 /* Tablet */
 @media (max-width: 1023px) {
+
+    body,
+    footer > .container {
+        padding-inline: 1rem;
+    }
+
+    .background {
+        height: 40vh;
+    }
+
+
+    header > picture {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    picture > .name {
+        font-size: 2rem;
+        top: -35px;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
 
@@ -161,4 +193,62 @@ footer > .container > .contacts-container > .contacts > * {
 /* Mobile */
 @media (max-width: 767px) {
 
+    body,
+    footer > .container {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+    }
+
+    
+    header,
+    section,
+    footer > .container > .contacts-container {
+        padding-inline: 10px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header > * {
+        flex: 1;
+    }
+
+    header > picture {
+        right: 0px;
+    }
+
+    header > .about > h2,
+    section > h2 {
+        
+        text-align: center;
+    }
+
+    header > .about > .social {
+        text-align: center;
+    }
+
+    section > .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        margin-top: 0rem;
+        padding-block: 0rem;
+    }
+
+    footer > .container {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    footer > .container > .contacts-container > h2 {
+        text-align: center;
+    }
+
+    footer > .container > .contacts-container > .contacts .social {
+        justify-content: center;
+    }
 }
