@@ -10,10 +10,15 @@
     <main>
         <header>
             <div class="background"></div>
-            <picture>
-                <img class="top-image"  src="Images/pexels-tima-miroshnichenko-5717570.jpg" alt="lady with laptop in a car">
+            <div class="top-image">
+                <img 
+                    src="Images/responsive/woman_large_narow.webp"
+                    srcset="Images/responsive/woman_small_narow.webp 600w, Images/responsive/woman_medium_narow.webp 1200w, Images/responsive/woman_large_narow.webp 2400w"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 1200px"
+                    alt="lady with laptop in a car"
+                >
                 <div class="name">Bran Kasangili</div>
-            </picture>
+            </div>
             <div class="about">
                 <h2>About me</h2>
                 <div class="text-content">
@@ -114,7 +119,12 @@
                 </div>
             </div>
             <div class="image-container">
-                <img src="Images/pexels-tima-miroshnichenko-5717570.jpg" alt="lady with laptop in a car">
+                <img 
+                    src="Images/responsive/woman_wide.webp"
+                    srcset="Images/responsive/woman_small_narow.webp 600w, Images/responsive/woman_medium_narow.webp 1200w, Images/responsive/woman_wide.webp 2400w"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 1200px"
+                    alt="lady with laptop in a car"
+                >
             </div>
         </div>
     </footer>

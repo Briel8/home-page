@@ -43,7 +43,7 @@ header {
     align-items: center;
 }
 
-header > picture {
+header > .top-image {
     flex-direction: column;
     position: relative;
     right: -10px;
@@ -52,7 +52,7 @@ header > picture {
     padding-block: auto;
 }
 
-picture > .name {
+.top-image > .name {
     color: #fff9f9;
     font-size: 2.5rem;
     position: relative;
@@ -86,7 +86,7 @@ header > .about > .social {
     z-index: -1;
     width: 100vw;
     max-width: 100%;
-    height: 28rem;
+    height: 37rem;
     background-color: #0A789D;
     transform: skewY(-10deg);
     transform-origin: top left;
@@ -168,17 +168,17 @@ footer > .container > .contacts-container > .contacts > * {
     }
 
     .background {
-        height: 40vh;
+        height: 45vh;
     }
 
 
-    header > picture {
+    header > .top-image {
         display: flex;
         justify-items: center;
         justify-content: center;
     }
     
-    picture > .name {
+    .top-image > .name {
         font-size: 2rem;
         top: -35px;
     }
@@ -215,7 +215,7 @@ footer > .container > .contacts-container > .contacts > * {
         flex: 1;
     }
 
-    header > picture {
+    header > .top-image {
         right: 0px;
     }
 
